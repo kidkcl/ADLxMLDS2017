@@ -119,7 +119,7 @@ def run():
     #print(classes.shape)
     #classes = classes.astype(int)
     #print(classes[2])
-    label_map_path = root_dir + '48_39.map'
+    label_map_path = root_dir + 'phones/48_39.map'
     phone_path = root_dir + '48phone_char.map'
     lb_to_class, class_to_lb, char_map = load_label_map(label_map_path, phone_path)
     lb_to_class['null'] = 39

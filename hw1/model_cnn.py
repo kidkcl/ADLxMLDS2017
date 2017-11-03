@@ -149,8 +149,8 @@ def run():
     feature = load_mfcc_train_data(train_path)
     print('Reading label file...')
     label_path = root_dir + 'train.lab'
-    48_39_path = root_dir + 'phones/48_39.map'
-    raw_label, lb_to_class, class_to_lb = load_labels(label_path, 48_39_path)
+    map_48_39_path = root_dir + 'phones/48_39.map'
+    raw_label, lb_to_class, class_to_lb = load_labels(label_path, map_48_39_path)
     # add the dummy label to maps
     lb_to_class['null'] = 39
     class_to_lb[39] = 'null'
