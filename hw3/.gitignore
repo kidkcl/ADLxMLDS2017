@@ -1,0 +1,11 @@
+## files
+main.py
+test.py
+argument.py
+atari_wrapper.py
+enviroment.py
+agent_dir/agent.py
+
+## logs cache
+__pycache__/
+*.pyc
