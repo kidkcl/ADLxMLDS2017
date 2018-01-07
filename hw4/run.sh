@@ -11,4 +11,4 @@ wget https://www.dropbox.com/s/5w7skbqq1hr2xwu/model_epoch_90.ckpt.data-00000-of
 wget https://www.dropbox.com/s/5th42p5us3o7gy2/model_epoch_90.ckpt.index
 wget https://www.dropbox.com/s/9ifjkdkl7l3q74l/model_epoch_90.ckpt.meta
 cd ../
-python3 generate.py --model=./models/model_epoch_90.ckpt --caption_file=$1
+python3.5 generate.py --model=./models/model_epoch_90.ckpt --caption_file=$1
